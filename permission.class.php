@@ -1,7 +1,5 @@
 <?php
 
-<?php
-
 /**
  * Gestiona los permisos de los archivos de un directorio.
  * @author David Unay Santisteban <slavepens@gmail.com>
