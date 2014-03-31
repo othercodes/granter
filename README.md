@@ -14,6 +14,8 @@ Metodos
 Uso
 ===
 Para usar esta clase primero debemos importarla:
-´´´php
+```php
 require "permissions.class.php";
-´´´
+```
+
+
