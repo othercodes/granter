@@ -1,4 +1,9 @@
 permission-class
 ================
 
-Gestiona permisos del sistema
+Muestra y cambia los permisos del sistema.
+
+Metodos
+=======
+
+
