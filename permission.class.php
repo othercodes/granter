@@ -31,7 +31,7 @@ class permission {
      * @param string $file ruta del archivo.
      * @return boolean
      */
-    public function changePerms($perms,$file){
+    public function setPerms($perms,$file){
         return chmod($file,$perms);
     }
     
@@ -43,7 +43,7 @@ class permission {
      * @param string $path ruta del directorio.
      * @return boolean
      */
-    public function changeAllPerms($perms, $recursive = FALSE, $affected = 'ALL' ,$path = null){  
+    public function setAllPerms($perms, $recursive = FALSE, $affected = 'ALL' ,$path = null){  
         if(!$path){
             $path = $this->_path;
         }
@@ -58,14 +58,14 @@ class permission {
             if ($entry != "." && $entry != "..") {
                 if (is_dir($path.$entry)){
                     if($affected == 'ALL' xor $affected == 'DIR') {
-                        $this->_state[] = $this->changePerms($perms,$path.$entry);
+                        $this->_state[] = $this->setPerms($perms,$path.$entry);
                     }
                     if ($recursive === TRUE){
-                        $this->changeAllPerms($perms, $recursive, $affected, $path.$entry.'/');
+                        $this->setAllPerms($perms, $recursive, $affected, $path.$entry.'/');
                     }
                 } else {
                     if($affected == 'ALL' xor $affected == 'FILE') {
-                        $this->_state[] = $this->changePerms($perms,$path.$entry);
+                        $this->_state[] = $this->setPerms($perms,$path.$entry);
                     }
                 }
             } 
