@@ -6,7 +6,7 @@ Muestra y cambia los permisos del sistema.
 Metodos
 =======
 <table>
-<tr><td>Nombre</td><td>Descripcion</td><td>Parametros</td></tr>
+<tr><td><b>Nombre</b></td><td><b>Descripcion</b></td><td><b>Parametros</b></td></tr>
 <tr>
 <td>getPerms()</td>
 <td>Obtinen los permisos de un archivo dado.</td>
