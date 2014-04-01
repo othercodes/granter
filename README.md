@@ -25,3 +25,7 @@ $permissions = new permissions("Documentos/");
 ```
 
 **NOTA**: Las rutas pueden ser absolutas o relativas.
+
+```php
+
+```
