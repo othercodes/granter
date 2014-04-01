@@ -10,7 +10,11 @@ Metodos
 <tr>
 <td>getPerms()</td>
 <td>Obtinen los permisos de un archivo dado.</td>
-<td></td>
+<td>
+<ul>
+<li>$file: archivo del que se obtienen los permisos.</li> 
+</ul>
+</td>
 </tr>
 <tr>
 <td>getAllPerms()</td>
