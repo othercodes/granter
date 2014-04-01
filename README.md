@@ -7,8 +7,7 @@ Metodos
 =======
 Nombre             | Descripcion |
 -------------------|---------------------------------------------------------------|
-**getPerms()**:    | Obtinen los permisos de un archivo dado. | * 
-*asd
+**getPerms()**:    | Obtinen los permisos de un archivo dado. | * asd *
 **getAllPerms()**: | Obtiene todos los permisos de los elementos de un directorio. |
 **setPerms()**:    | Establece los permisos de un archivo dado. |
 **setAllPerms()**: | Establece todos los permisos de los elementos de un directio. |
