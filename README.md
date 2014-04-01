@@ -8,15 +8,12 @@ Metodos
 <table>
 <tr><td>Nombre</td><td>descripcion</td></tr>
 <tr>
-<td>**getAllPerms()**</td><td>Obtinen los permisos de un archivo dado</td>
+<td>getPerms()</td><td>Obtinen los permisos de un archivo dado.</td>
+<td>getAllPerms()</td><td>Obtiene todos los permisos de los elementos de un directorio.</td>
+<td>setPerms()</td><td>Establece los permisos de un archivo dado.</td>
+<td>setAllPerms()</td><td>Establece todos los permisos de los elementos de un directio.</td>
 </tr>
 </table>
-
-**getAllPerms()**: Obtiene todos los permisos de los elementos de un directorio.
-**setPerms()**:    Establece los permisos de un archivo dado.
-**setAllPerms()**: Establece todos los permisos de los elementos de un directio.
-
-
 
 Uso
 ===
