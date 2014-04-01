@@ -11,15 +11,16 @@ Metodos
 <td>getPerms()</td>
 <td>Obtinen los permisos de un archivo dado.</td>
 <td>
-<ul>
-<li>$file: archivo del que se obtienen los permisos.</li> 
-</ul>
+<div>$file: archivo del que se obtienen los permisos.</div>
 </td>
 </tr>
 <tr>
 <td>getAllPerms()</td>
 <td>Obtiene todos los permisos de los elementos de un directorio.</td>
-<td></td>
+<td>
+<div>$recursive: obtiene recursivamente los permisos de los subdirectios, por defecto FALSE</div>
+<div>$path: ruta de del directorio, por defecto la del constructor.</div>
+</td>
 </tr>
 <tr>
 <td>setPerms()</td>
