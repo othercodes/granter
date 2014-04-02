@@ -8,29 +8,36 @@ Metodos
 <table>
 <tr><td><b>Nombre</b></td><td><b>Descripcion</b></td><td><b>Parametros</b></td></tr>
 <tr>
-<td>getPerms()</td>
+<td><b>getPerms()</b></td>
 <td>Obtinen los permisos de un archivo dado.</td>
 <td>
-<div>$file: archivo del que se obtienen los permisos.</div>
+<div><b>$file:</b> archivo del que se obtienen los permisos.</div>
 </td>
 </tr>
 <tr>
-<td>getAllPerms()</td>
+<td><b>getAllPerms()</b>/td>
 <td>Obtiene todos los permisos de los elementos de un directorio.</td>
 <td>
-<div>$recursive: obtiene recursivamente los permisos de los subdirectios, por defecto FALSE</div>
-<div>$path: ruta de del directorio, por defecto la del constructor.</div>
+<div><b>$recursive:</b> obtiene recursivamente los permisos de los subdirectios, por defecto FALSE</div>
+<div><b>$path:</b> ruta de del directorio, por defecto la del constructor.</div>
 </td>
 </tr>
 <tr>
-<td>setPerms()</td>
+<td><b>setPerms()</b></td>
 <td>Establece los permisos de un archivo dado.</td>
-<td></td>
+<td>
+<div><b>$perms:</b> los nuevos permisos a aplica, en octal ej:0777, 0644, 755</div>
+</td>
 </tr>
 <tr>
-<td>setAllPerms()</td>
+<td><b>setAllPerms()</b></td>
 <td>Establece todos los permisos de los elementos de un directio.</td>
-<td></td>
+<td>
+<div><b>$perms:</b> nuevos permisos a aplicar</div>
+<div><b>$recursive:</b> TRUE|FALSE establece si la accion es recursiva entre subdirectorios, por defecto FALSE</div>
+<div><b>$affected:</b> DIR|FILE|ALL estable que elementos seran afectados, por defecto ALL (TODOS)</div>
+<div><b>$path:</b> ruta del directorio, por defecto la del contructor.</div>
+</td>
 </tr>
 </table>
 
