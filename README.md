@@ -15,7 +15,7 @@ Metodos
 </td>
 </tr>
 <tr>
-<td><b>getAllPerms()</b>/td>
+<td><b>getAllPerms()</b></td>
 <td>Obtiene todos los permisos de los elementos de un directorio.</td>
 <td>
 <div><b>$recursive:</b> obtiene recursivamente los permisos de los subdirectios, por defecto FALSE</div>
