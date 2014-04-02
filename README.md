@@ -57,5 +57,6 @@ $permissions = new permissions("Documentos/");
 **NOTA**: Las rutas pueden ser absolutas o relativas.
 
 ```php
-
+$permissions->setAllPerms(0777,TRUE,"FILE");
 ```
+El codigo de arriba cambiara de manera recursiva todos los permisos a 777 de los archivos de la carpeta "Documentos/", que es la que se establecio en el constructor.
